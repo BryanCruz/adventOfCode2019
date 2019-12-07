@@ -1,0 +1,26 @@
+{
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        ".git": true,
+        ".build": true
+    },
+    "files.associations": {
+        "cglicenses.json": "jsonc"
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        ".build/**": true,
+        "out/**": true,
+        "out-build/**": true,
+        "out-vscode/**": true,
+        "i18n/**": true,
+        "extensions/**/out/**": true,
+        "test/smoke/out/**": true,
+        "src/vs/base/test/node/uri.test.data.txt": true
+    },
+    "files.insertFinalNewline": true,
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}"
+}
