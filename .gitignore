@@ -1,2 +1,4 @@
 *input*
 *.out
+node_modules
+package*json

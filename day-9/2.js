@@ -36,7 +36,7 @@ const instructions = {
     s[c.toJSNumber() + (v_mod === 2 ? offset : 0)] = get(a).times(get(b));
   },
   3: ([a, v_mod]) => {
-    s[a.toJSNumber() + (v_mod === 2 ? offset : 0)] = bigInt(1);
+    s[a.toJSNumber() + (v_mod === 2 ? offset : 0)] = bigInt(2);
   },
   4: a => {
     console.log(get(a));
